@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(255, 248, 227);
+}
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inspiration', cursive;
+  
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: 'Inspiration', cursive;
+}
+.food{
+    margin-right: 10px;
+    color: orange;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+main{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    font-family: 'Roboto Mono', monospace;
+   
+}
+.first-div{
+    width: 60%;
+    font-family: 'Inspiration', cursive;
+}
+.second-div{
+    width: 40%;
+    font-family: 'Inspiration', cursive;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    font-family: 'Inspiration', cursive;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-family: 'Inspiration', cursive;
+}
+.list li{
+    margin-right: 20px;
+    font-family: 'Inspiration', cursive;
+}
+.image{
+    width: 100%;
+    height: 100%;
+  
+    border-radius: 4px;
+    font-family: 'Inspiration', cursive;
+}
+.title{
+    font-size: 60px;
+    color: orange;
+    font-family: 'Inspiration', cursive;
+}
+.title-div{
+    text-align: center;
+    font-family: 'Inspiration', cursive;
+}
+.buttons {
+    width: 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inspiration', cursive;
+}
+.button{
+    background: black;
+    color: wheat;
+    border-radius: 23px;
+    padding: 10px;
+    font-family: 'Inspiration', cursive;
+}
+
+.flex-container {
+    display: flex;   
+    height: auto;  
+    font-family: 'Inspiration', cursive; 
+    text-align: center;
+  }
+  .flex-container img{
+    width: 200px;
+    height: auto;
+    font-family: 'Inspiration', cursive;
+  }
+  .flex-container > div {
+    background-color: none;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    height: 190px;
+    font-family: 'Inspiration', cursive;
+
+  }
+    .video {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background: none;
+    height: 40px;
+    width: 117px;
+    border: none;
+    font-family: 'Inspiration', cursive;
+  }
+
+  .star i {
+    color: #f9a825;
+}
+.star {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:10px;
+    height: 40px;
+}
+
+input[type="email"] {
+    font-family: 'Inspiration', cursive;
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer {
+    height: 70px;
+}
+.socials {
+    width: 50%;
+    height:auto;
+    color: #bdbdbd;
+}
+.socials--item {
+    margin-right: 12px;
+}
+.socials--item:hover {
+color: #333;
+}
